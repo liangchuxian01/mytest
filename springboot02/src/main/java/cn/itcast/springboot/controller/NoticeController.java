@@ -21,6 +21,7 @@ public class NoticeController {
 	@GetMapping("/findAll")
 	@ResponseBody
 	public List<Notice> findAll(){
+		//哈哈哈哈，我下班了
 		return noticeService.findAll();
 	}
 	/** 跳转分页查询公告页面 */
